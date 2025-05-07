@@ -6,7 +6,7 @@ metadata:
     run: nginx
 spec: 
   containers:
-    - image: nginx
+    - image: nginx:1.23.3
       imagePullPolicy: IfNotPresent
       name: nginx-container
       resources:
